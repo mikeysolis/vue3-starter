@@ -18,6 +18,12 @@ export default defineConfig({
     presetUno(),
     presetAttributify(),
     presetIcons({
+      collections: {
+        prime: () => import('@iconify-json/prime/icons.json').then(i => i.default as any),
+        heroOutline: () => import('@iconify-json/heroicons-outline/icons.json').then(i => i.default as any),
+        heroSolid: () => import('@iconify-json/heroicons-solid/icons.json').then(i => i.default as any),
+        carbon: () => import('@iconify-json/carbon/icons.json').then(i => i.default as any),
+      },
       scale: 1.2,
       warn: true,
     }),
