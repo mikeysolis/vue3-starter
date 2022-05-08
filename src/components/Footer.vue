@@ -13,7 +13,7 @@ const toggleLocales = () => {
 <template>
   <nav text-xl mt-6>
     <RouterLink class="icon-btn mx-2" to="/" :title="t('button.home')">
-      <div i-carbon-campsite />
+      <div i-heroicons-outline-home />
     </RouterLink>
 
     <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
@@ -29,7 +29,7 @@ const toggleLocales = () => {
     </RouterLink>
 
     <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
-      <div i-carbon-logo-github />
+      <div i-prime-github />
     </a>
   </nav>
 </template>
