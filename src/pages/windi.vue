@@ -532,5 +532,5 @@ const footerNavigation = {
 
 <route lang="yaml">
 meta:
-  layout: tailwindui
+  layout: borderless
 </route>
